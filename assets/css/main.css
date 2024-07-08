@@ -587,7 +587,7 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
   font-size: 16px;
-  color: var(--accent-color);
+  color: #FF2A0D;
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -677,7 +677,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: #FF2A0D;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -691,7 +691,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: color-mix(in srgb, #b91a05, transparent 20%);
   color: var(--contrast-color);
 }
 
@@ -1466,7 +1466,27 @@ section,
   background-color: #FF2A0D;
 }
 
+.pricing .btn-buy-2 {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #FF2A0D;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;;
+  font-weight: 600;
+  transition: 0.3s;
+  stroke: #FF2A0D;
+  stroke-width: 5px;
+}
+
 .pricing .btn-buy:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.pricing .btn-buy-2:hover {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
@@ -1800,6 +1820,33 @@ section,
   opacity: 50%;
 }
 
+.team h4 {
+font-family: "Piazzolla", serif;
+color:#010D24; 
+font-size: 24px;
+font-weight: 700;
+}
+
+.team .read-more {
+  font-family: "Montserrat", sans-serif;
+  color: #FF2A0D;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+.team .read-more i {
+    font-family: "Montserrat", sans-serif;
+  color:#FF2A0D;
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .team p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -2018,6 +2065,11 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 
+.contact {
+  background: url(../img/fondo_contacto_home.jpg) top center no-repeat;
+  background-size: cover;
+}
+
 .contact h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
@@ -2027,14 +2079,21 @@ section,
 
 .contact p {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
-  color: #010D24; 
+  color: #010D24;
+  opacity: 50%; 
 }
 
 .contact .info-item {
   background: color-mix(in srgb, var(--default-color), transparent 96%);
   padding: 30px;
+}
+
+.contact .info-item-2 {
+  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  padding: 30px;
+  margin-bottom: 70%;
 }
 
 .contact .info-item i {
@@ -2043,16 +2102,43 @@ section,
   color: var(--accent-color);
 }
 
+.contact .info-item-2 i {
+  font-size: 38px;
+  line-height: 0;
+  color: var(--accent-color);
+}
+
 .contact .info-item h3 {
-  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color:#010D24; 
+  font-size: 24px;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
 
 .contact .info-item p {
   padding: 0;
-  line-height: 24px;
-  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010D24; 
+  margin-bottom: 0;
+}
+
+.contact .info-item-2 h3 {
+  font-family: "Piazzolla", serif;
+  color:#010D24; 
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contact .info-item-2 p {
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010D24; 
   margin-bottom: 0;
 }
 
