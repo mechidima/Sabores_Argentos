@@ -170,11 +170,11 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: #010D24;
     padding: 18px 12px;
     font-size: 15px;
-    font-family: var(--nav-font);
-    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -194,10 +194,8 @@ h6 {
     padding-right: 0;
   }
 
-  .navmenu li:hover>a,
-  .navmenu .active,
-  .navmenu .active:focus {
-    color: var(--nav-hover-color);
+  .navmenu li:hover {
+    color: var(#FF2A0D);
   }
 
   .navmenu .dropdown ul {
@@ -821,16 +819,6 @@ section,
   background-size: cover;
   }
 
-  hero {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
-  padding: 80px 0 60px 0;
-  display: flex;
-  align-items: center;
-  background: url(../img/hero-bg-2.jpg) top center no-repeat;
-  background-size: cover;
-}
 
 .hero h1 {
   font-family: "Piazzolla", serif;
@@ -851,8 +839,8 @@ section,
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: #FF2A0D;
-  font-family: var(--heading-font);
-  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
   font-size: 16px;
   letter-spacing: 1px;
   display: flex;
@@ -1340,8 +1328,11 @@ section,
   margin:auto;
 }
 
-.container {
-
+.pricing container {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 70%;
 }
 
 .pricing .pricing-tem {
@@ -1404,6 +1395,21 @@ section,
   font-weight: 700;
   margin-bottom: 18px;
   color: #010D24;
+}
+
+.pricing h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #010D24;
+}
+
+.pricing p { 
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010D24;
+  line-height: normal;
 }
 
 .pricing .price {
@@ -1954,7 +1960,7 @@ font-weight: 700;
   font-size: 48px;
   line-height: 68px;
   font-weight: 800;
-  margin-bottom: -5%;
+  margin-bottom: -3%;
 }
 
 .clients .swiper-slide img {
@@ -2143,9 +2149,9 @@ font-weight: 700;
 }
 
 .contact .php-email-form {
-  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  background: color-mix(in srgb, #FF2A0D, transparent 96%);
   padding: 30px;
-  height: 100%;
+  height: 5%;
 }
 
 .contact .php-email-form .error-message {
@@ -2213,8 +2219,8 @@ font-weight: 700;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: #FF2A0D;
+  color: #FFF9E1;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -2222,7 +2228,7 @@ font-weight: 700;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb, #a91905, transparent 20%);
 }
 
 @keyframes animate-loading {

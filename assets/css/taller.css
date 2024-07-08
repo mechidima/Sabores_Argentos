@@ -588,7 +588,7 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
   font-size: 16px;
-  color: var(--accent-color);
+  color: #FF2A0D;
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -812,7 +812,7 @@ section,
 }
 
 .hero h2 {
-  font-family:"Montserrat; sans-serif";
+  font-family:"Montserrat", sans-serif;
   color:#FF2A0D; 
   margin-bottom: 5%;
   font-size: 56px;
@@ -830,7 +830,7 @@ section,
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: #FF2A0D;
-  font-family: "Montserrat; sans-serif";
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -909,6 +909,35 @@ section,
   }
 }
 
+.hero .feature-box {
+  padding: 24px 20px;
+  box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 90%);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.hero .feature-box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero .feature-box i {
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  color: var(--accent-color);
+  line-height: 0;
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.hero .feature-box:hover i {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -928,9 +957,10 @@ section,
 .about .content h2 {
   color: #010D24; 
   font-family: "Montserrat", sans-serif;
-  font-size: 64px;
-  line-height: 68px;
+  font-size: 48px;
+  line-height: 52px;
   font-weight: 800;
+  margin-bottom: 5%;
 }
 
 .about .content p {
@@ -1062,15 +1092,33 @@ section,
   height: 100%;
 }
 
+.features p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #010D24;
+  opacity: 50%;
+}
+
+.features h2 {
+  color: #FF2A0D; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+
 .features .feature-box h3 {
-  font-size: 18px;
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #010D24;
+  opacity: 100%;
   margin: 0;
 }
 
 .features .feature-box i {
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
-  color: var(--accent-color);
+  background: #FF2A0D;
+  color: #FFF9E1;
   line-height: 0;
   padding: 4px;
   margin-right: 10px;
@@ -1080,8 +1128,8 @@ section,
 }
 
 .features .feature-box:hover i {
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: #801304;
+  color: #FFF9E1;
 }
 
 /*--------------------------------------------------------------
@@ -1426,6 +1474,7 @@ section,
 /*--------------------------------------------------------------
 # Faq Section
 --------------------------------------------------------------*/
+
 .faq .faq-container .faq-item {
   position: relative;
   padding: 20px 0;
@@ -1641,6 +1690,21 @@ section,
   transition: 0.3s;
 }
 
+.testimonials h2 {
+  color: #FF2A0D; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.testimonials p { 
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #010D24;
+  opacity: 50%;
+}
+
 .testimonials .testimonial-item .stars {
   margin-bottom: 15px;
 }
@@ -1658,8 +1722,10 @@ section,
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
+  color: #FF2A0D; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
   margin: 10px 0 5px 0;
 }
 
@@ -1883,7 +1949,17 @@ section,
 /*--------------------------------------------------------------
 # Recent Posts Section
 --------------------------------------------------------------*/
+.recent-posts h2 {
+  color: #FF2A0D; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 34px;
+  font-weight: 800;
+}
+
 .recent-posts .post-item {
+  background-color: #FF2A0D;
+  border-radius: 30px;
   box-shadow: 0px 2px 20px color-mix(in srgb, var(--default-color), transparent 92%);
   transition: 0.3s;
 }
@@ -1893,15 +1969,15 @@ section,
 }
 
 .recent-posts .post-item .post-date {
+  font-family: "Montserrat",sans-serif;
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  text-transform: uppercase;
+  background-color: #FF2A0D;
+  color: #FFFBF2; 
   font-size: 13px;
   padding: 6px 12px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .recent-posts .post-item .post-content {
@@ -1909,7 +1985,8 @@ section,
 }
 
 .recent-posts .post-item .post-title {
-  color: var(--heading-color);
+  color: #FFFBF2; 
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
   transition: 0.3s;
@@ -1937,18 +2014,19 @@ section,
   font-weight: 600;
   line-height: 1;
   transition: 0.3s;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: #FFFBF2; 
 }
 
 .recent-posts .post-item .readmore i {
   line-height: 0;
   margin-left: 6px;
   font-size: 16px;
+  color: #FFFBF2; 
 }
 
 .recent-posts .post-item:hover .post-title,
 .recent-posts .post-item:hover .readmore {
-  color: var(--accent-color);
+  color: #7a1507;
 }
 
 .recent-posts .post-item:hover .post-img img {
@@ -1959,6 +2037,12 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 
+
+.contact {
+  background: url(../img/fondo-footer-detalle.jpg) top center no-repeat;
+  background-size: cover;
+}
+
 .contact h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
@@ -1968,14 +2052,21 @@ section,
 
 .contact p {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
-  color: #010D24; 
+  color: #010D24;
+  opacity: 50%; 
 }
 
 .contact .info-item {
   background: color-mix(in srgb, var(--default-color), transparent 96%);
   padding: 30px;
+}
+
+.contact .info-item-2 {
+  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  padding: 30px;
+  margin-bottom: 30%;
 }
 
 .contact .info-item i {
@@ -1984,16 +2075,43 @@ section,
   color: var(--accent-color);
 }
 
+.contact .info-item-2 i {
+  font-size: 38px;
+  line-height: 0;
+  color: var(--accent-color);
+}
+
 .contact .info-item h3 {
-  font-size: 20px;
+  font-family: "Piazzolla", serif;
+  color:#010D24; 
+  font-size: 24px;
   font-weight: 700;
   margin: 20px 0 10px 0;
 }
 
 .contact .info-item p {
   padding: 0;
-  line-height: 24px;
-  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010D24; 
+  margin-bottom: 0;
+}
+
+.contact .info-item-2 h3 {
+  font-family: "Piazzolla", serif;
+  color:#010D24; 
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contact .info-item-2 p {
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010D24; 
   margin-bottom: 0;
 }
 
@@ -2089,6 +2207,7 @@ section,
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
