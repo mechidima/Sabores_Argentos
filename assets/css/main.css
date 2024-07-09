@@ -1096,6 +1096,11 @@ section,
 /*--------------------------------------------------------------
 # Alt Features Section
 --------------------------------------------------------------*/
+
+.alt-features {
+  display: none;
+}
+
 .alt-features .icon-box {
   display: flex;
 }
