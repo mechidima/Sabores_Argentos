@@ -808,17 +808,19 @@ section,
   background-size: cover;
 }
 
-.mobile-hero {
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
-  padding: 80px 0 60px 0;
-  display: flex;
-  align-items: center;
-  background: url(../img/hero-mobpng\ copy.png) top center no-repeat;
-  background-size: cover;
+@media (max-width: 1199px) {
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 80px 0 60px 0;
+    display: flex;
+    align-items: center;
+    background: url(../img/hero-mobpng\ copy.png) top center no-repeat;
+    background-size: cover;
   }
-
+}
+    
 
 .hero h1 {
   font-family: "Piazzolla", serif;
