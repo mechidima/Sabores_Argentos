@@ -957,7 +957,7 @@ section,
 .about .content h2 {
   color: #010D24; 
   font-family: "Montserrat", sans-serif;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 52px;
   font-weight: 800;
   margin-bottom: 5%;
@@ -965,7 +965,7 @@ section,
 
 .about .content p {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #010D24; 
   margin-bottom: 18px;
@@ -1002,7 +1002,8 @@ section,
 # Values Section
 --------------------------------------------------------------*/
 .values {
-  background-color: #FFF9E1 
+  background-color: #FFF9E1; 
+  margin-top: 10%;
 }
 
 .values h2 {
@@ -1085,6 +1086,11 @@ section,
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
+
+.features {
+  margin-top: 5%;
+}
+
 .features .feature-box {
   padding: 24px 20px;
   box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 90%);
@@ -1952,7 +1958,7 @@ section,
 .recent-posts h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 34px;
   font-weight: 800;
 }
@@ -2026,7 +2032,7 @@ section,
 
 .recent-posts .post-item:hover .post-title,
 .recent-posts .post-item:hover .readmore {
-  color: #7a1507;
+  color: #FFD961;
 }
 
 .recent-posts .post-item:hover .post-img img {
