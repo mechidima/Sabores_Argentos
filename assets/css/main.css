@@ -111,8 +111,8 @@ h6 {
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-  color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  color: #010D24;
+  background: #FFD961;
 }
 
 @media (max-width: 1200px) {
@@ -194,8 +194,12 @@ h6 {
     padding-right: 0;
   }
 
+  .navmenu a:hover {
+    color: #FF2A0D;
+  }
+
   .navmenu li:hover {
-    color: var(#FF2A0D);
+    color: #FF2A0D;
   }
 
   .navmenu .dropdown ul {
@@ -826,9 +830,9 @@ section,
   font-family: "Piazzolla", serif;
   color:#010D24; 
   margin-bottom: 5%;
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 92px;
+  font-size: 71px;
+  font-weight: 300;
+  line-height: 73px;
 }
 
 .hero p {
@@ -861,9 +865,9 @@ section,
 }
 
 .hero .btn-get-started:hover {
-  color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
-  box-shadow: 0 8px 28px color-mix(in srgb, var(--accent-color), transparent 55%);
+  color: #010D24;
+  background: #FFD961;
+  box-shadow: 0 8px 28px color-mix(in srgb, #010D24, transparent 55%);
 }
 
 .hero .btn-get-started:hover i {
@@ -921,8 +925,88 @@ section,
 }
 
 /*--------------------------------------------------------------
+# productores Section
+--------------------------------------------------------------*/
+
+.productores {
+  background-color: #FFFDF6;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.productores .content {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 100%);
+  padding: 40px;
+}
+
+.productores .content h3 {
+  color: #FF2A0D; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.productores .content h2 {
+  color: #010D24; 
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 800;
+  margin-bottom: 3%;
+}
+
+.productores .content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010D24; 
+  margin-bottom: 18px;
+}
+
+.productores .content .btn-read-more {
+  color: #FFF9E1;
+  background:  #FF2A0D;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  box-shadow: 0px 5px 25px color-mix(in srgb, var(--accent-color), transparent 90%);
+  margin-top: 5%;
+}
+
+.productores .content .btn-read-more span {
+  font-family: var(--default-font);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.productores .content .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.productores .content .btn-read-more:hover {
+  color: #010D24;
+  background: #FFD961;
+}
+
+.productores .content .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+
+.about {
+  background-color: #FFFDF6;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 .about .content {
   background-color: color-mix(in srgb, var(--accent-color), transparent 100%);
   padding: 40px;
@@ -1130,11 +1214,29 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 
+.services {
+  background-color: #FFFDF6;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.services img {
+width: 65%;
+height: auto;
+margin-bottom: 10%;
+}
+
+.services .service-item img:hover {
+  width: 70%;
+  height: auto;
+  }
+
 .services h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
   font-weight: 800;
+  margin-bottom: 3%;
 }
 
 .services p {
@@ -1174,8 +1276,9 @@ section,
 .services .service-item h3 {
   font-family: "Piazzolla", serif;
   color:#010D24; 
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
+  margin-bottom: 5%;
 }
 
 .services h4 {
@@ -1185,12 +1288,14 @@ section,
   font-weight: 400;
   color: #010D24; 
   opacity: 50%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .services .service-item p {
   font-family: "Montserrat", sans-serif;
   color:#010D24;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -1203,6 +1308,10 @@ section,
   font-weight: 700;
   font-size: 16px;
   padding: 8px 20px;
+}
+
+.services .service-item .read-more:hover {
+  font-size: 20px;
 }
 
 .services .service-item .read-more i {
@@ -1316,22 +1425,14 @@ section,
   background: #FFD961;
 }
 
-.services .service-item:hover h3,
-.services .service-item:hover p,
-.services .service-item:hover .read-more {
-  color: #fff;
-}
-
-.services .service-item:hover .icon {
-  background: #fff;
-}
 
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
 .pricing {
   background-color: #FF2A0D;
-  padding:auto;
+  padding-top: 10%;
+  padding-bottom: 5%;
   margin:auto;
 }
 
@@ -1340,6 +1441,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 width: 70%;
+padding-left: 50%;
 }
 
 .pricing .pricing-tem {
@@ -1386,6 +1488,8 @@ width: 70%;
   font-weight: 400;
   color: #FFFBF2; 
   opacity: 75%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .pricing h4 {
@@ -1598,6 +1702,12 @@ width: 70%;
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+.portfolio {
+  background-color: #FFFDF6;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 .portfolio h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
@@ -1818,11 +1928,18 @@ width: 70%;
 # Team Section
 --------------------------------------------------------------*/
 
+.team {
+  background-color: #FFF9E1;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 .team h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
   font-weight: 800;
+  margin-bottom: 2%;
 }
 
 .team h3 {
@@ -1831,6 +1948,8 @@ width: 70%;
   font-weight: 400;
   color: #010D24;
   opacity: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .team h4 {
@@ -1840,7 +1959,7 @@ font-size: 24px;
 font-weight: 700;
 }
 
-.team .read-more {
+.team .member-info .read-more {
   font-family: "Montserrat", sans-serif;
   color: #FF2A0D;
   display: inline-flex;
@@ -1947,6 +2066,12 @@ font-weight: 700;
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
+.clients {
+  background-color: #FFF9E1;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .clients h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
@@ -2251,6 +2376,10 @@ font-weight: 700;
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+.portfolio-details {
+
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }

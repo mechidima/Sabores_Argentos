@@ -112,8 +112,8 @@ h6 {
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-  color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  color: #010D24;
+  background: #FFD961;
 }
 
 @media (max-width: 1200px) {
@@ -171,11 +171,11 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: #010D24;
     padding: 18px 12px;
     font-size: 15px;
-    font-family: var(--nav-font);
-    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -195,10 +195,14 @@ h6 {
     padding-right: 0;
   }
 
+  .navmenu a:hover {
+    color: #FF2A0D;
+  }
+
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: #FF2A0D;;
   }
 
   .navmenu .dropdown ul {
@@ -715,7 +719,7 @@ h6 {
 --------------------------------------------------------------*/
 .page-title {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #FFFDF6;
   position: relative;
 }
 
@@ -752,6 +756,16 @@ h6 {
   display: inline-block;
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.page-title .breadcrumbs {
+  color: #010D24;
+  opacity: 70%;
+}
+
+.page-title nav ol li a {
+  color: #FF2A0D;
+  opacity: 100%
 }
 
 /*--------------------------------------------------------------
