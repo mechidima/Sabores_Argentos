@@ -768,7 +768,7 @@ section,
   color: var(--contrast-color);
   background: #FF2A0D;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
   display: flex;
@@ -990,7 +990,7 @@ section,
 }
 
 .values .card:hover {
-  box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 88%);
+  box-shadow: 0px 0 30px color-mix(in srgb, var(--default-color), transparent 100%);
 }
 
 .values .card:hover img {
@@ -1173,20 +1173,6 @@ section,
   font-size: 24px;
   border-radius: 3px;
   transition: 0.3s;
-}
-
-.features .feature-box:hover i {
-  background: #FFD961;
-  color: #010D24;
-}
-
-.features .feature-box:hover {
-  height: 110%;
-  width: 106%;
-}
-
-.features .feature-box h3:hover {
-  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1755,7 +1741,7 @@ section,
 }
 
 .testimonials .testimonial-item {
-  background-color: #FFD961;
+  background-color: #f9f2d9;
   box-shadow: 0px 0 20px color-mix(in srgb, var(--default-color), transparent 90%);
   box-sizing: content-box;
   border-radius: 20px;
