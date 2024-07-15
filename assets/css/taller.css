@@ -751,6 +751,7 @@ section,
   color:#FF2A0D; 
   font-weight: 600;
   font-size: 16px;
+  display: flex;
 
 }
 
@@ -792,6 +793,16 @@ section,
   transition: 0.5s;
   box-shadow: 0 8px 28px color-mix(in srgb, var(--accent-color), transparent 80%);
   margin-top: 5%;
+}
+
+.hero i {
+  color: #FF2A0D;
+  line-height: 0;
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
 }
 
 .hero .btn-get-started i {
