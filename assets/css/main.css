@@ -1273,12 +1273,9 @@ margin-bottom: 10%;
   margin:auto;
 }
 
-.pricing container {
-display: flex;
+.pricing .container {
 align-items: center;
 justify-content: center;
-width: 70%;
-padding-left: 50%;
 }
 
 .pricing .pricing-tem {
@@ -1332,7 +1329,7 @@ padding-left: 50%;
 
 .pricing h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   margin-bottom: 18px;
   color: #FF2A0D
@@ -1389,17 +1386,33 @@ padding-left: 50%;
 }
 
 .pricing ul {
-  padding: 0;
+  padding-left: 25%;
   list-style: none;
   color: var(--default-color);
-  text-align: center;
-  line-height: 26px;
+  text-align: left;
+  line-height: 40px;
   font-size: 16px;
   margin-bottom: 25px;
+  list-style-position: inside;
+  position: relative;
+  display: list-item;
 }
 
 .pricing ul li {
-  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #010D24;
+}
+
+.pricing ul i {
+  color: #FF2A0D;
+  line-height: 0;
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
 }
 
 .pricing ul .na {
@@ -1455,8 +1468,8 @@ padding-left: 50%;
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: #FFD961;
+  color: #010D24;
 }
 
 
