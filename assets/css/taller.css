@@ -733,6 +733,19 @@ section,
   background-size: cover;
 }
 
+@media (max-width: 1199px) {
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: url(../img/fondo_mobile_hero_detalle.jpg) top center no-repeat;
+    background-size: cover;
+    padding-top: 99%;
+  }
+}
+
 .hero span.ps-2 {
   font-family:"Montserrat", sans-serif;
   color:#FF2A0D; 
@@ -949,6 +962,12 @@ section,
   padding-bottom: 10%;
 }
 
+@media (max-width: 1199px) {
+  .values h2 {
+    padding-top: 30%;
+  }
+}
+
 .values h2 {
   color: #FF2A0D; 
   font-family: "Montserrat", sans-serif;
@@ -1146,6 +1165,12 @@ section,
   opacity: 50%;
   padding-left: 15%;
   padding-right: 15%;
+}
+
+@media (max-width: 1199px) {
+  .features h2 {
+    padding-top: 30%;
+  }
 }
 
 .features h2 {
@@ -1436,6 +1461,12 @@ justify-content: center;
   margin-bottom: 3%;
 }
 
+@media (max-width: 1199px) {
+  .pricing h2 {
+    padding-top: 30%;
+  }
+}
+
 .pricing p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -1616,6 +1647,12 @@ justify-content: center;
   color: #010D24;
 }
 
+@media (max-width: 1199px) {
+  .faq h2 {
+    padding-top: 30%;
+  }
+}
+
 .faq .faq-container .faq-item {
   position: relative;
   padding: 20px 0;
@@ -1645,7 +1682,7 @@ justify-content: center;
 }
 
 .faq .faq-container .faq-item h3:hover {
-  color: #19ABFD;
+  color: #010D24;
 }
 
 .faq .faq-container .faq-item .faq-content {
@@ -1672,11 +1709,11 @@ justify-content: center;
 }
 
 .faq .faq-container .faq-item .faq-toggle:hover {
-  color: #19ABFD;
+  color: #010D24;
 }
 
 .faq .faq-container .faq-active h3 {
-  color: #19ABFD;
+  color: #010D24;
 }
 
 .faq .faq-container .faq-active .faq-content {
@@ -1688,7 +1725,7 @@ justify-content: center;
 
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);
-  color: #19ABFD;
+  color: #010D24;
 }
 
 /*--------------------------------------------------------------
@@ -1846,6 +1883,12 @@ justify-content: center;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 2%;
+}
+
+@media (max-width: 1199px) {
+  .testimonials h2 {
+    padding-top: 30%;
+  }
 }
 
 .testimonials p { 
@@ -2221,6 +2264,12 @@ justify-content: center;
   font-weight: 800;
 }
 
+@media (max-width: 1199px) {
+  .contact h2 {
+    padding-top: 30%;
+  }
+}
+
 .contact p {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -2382,6 +2431,15 @@ justify-content: center;
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 1199px) {
+  .contact {
+    background: url(../img/fondo_mobile_detalle.jpg) top center no-repeat;
+    background-size: cover;
+    padding-bottom: 95%;
   }
 }
 
